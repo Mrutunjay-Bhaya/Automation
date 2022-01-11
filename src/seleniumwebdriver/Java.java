@@ -16,7 +16,7 @@ public class Java {
 		driver.get("https://facebook.com");
 		//suspend tool for 5 seconds
 		Thread.sleep(5000);
-			driver.findElement(By.name("email")).sendKeys("");
+			driver.findElement(By.name("email")).sendKeys("aaa");
 			driver.findElement(By.id("pass")).sendKeys("");
 			driver.findElement(By.name("login")).click();
 		Thread.sleep(20000);
