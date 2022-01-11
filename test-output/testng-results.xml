@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[New Branch with id 18 created Sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25927" started-at="2022-01-02T16:55:43Z" finished-at="2022-01-02T16:56:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25927" started-at="2022-01-02T16:55:43Z" finished-at="2022-01-02T16:56:09Z">
+      <class name="Testng.propertiesFile">
+        <test-method status="PASS" signature="adminlogin()[pri:0, instance:Testng.propertiesFile@482f8f11]" name="adminlogin" is-config="true" duration-ms="14079" started-at="2022-01-02T16:55:43Z" finished-at="2022-01-02T16:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method status="PASS" signature="branchcreation()[pri:0, instance:Testng.propertiesFile@482f8f11]" name="branchcreation" duration-ms="10962" started-at="2022-01-02T16:55:57Z" finished-at="2022-01-02T16:56:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New Branch with id 18 created Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- branchcreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testng.propertiesFile@482f8f11]" name="teardown" is-config="true" duration-ms="843" started-at="2022-01-02T16:56:08Z" finished-at="2022-01-02T16:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testng.propertiesFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
