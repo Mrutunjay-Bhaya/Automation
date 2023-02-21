@@ -25,7 +25,7 @@ public class readwritedata {
 			String password = ws.getRow(i).getCell(1).getStringCellValue();
 			System.out.println(username + "   " + password);
 			// write some text into results cell
-			ws.getRow(i).createCell(2).setCellValue("Iam so lazy to listen class");
+			ws.getRow(i).createCell(2).setCellValue("Cell Is Created");
 		}
 		// close file reading
 		fi.close();
